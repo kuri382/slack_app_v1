@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from slack_bolt import App
 from slack_bolt.adapter.flask import SlackRequestHandler
 
-load_dotenv()
+load_dotenv() #環境変数読み込み
 
 logging.basicConfig(level=logging.DEBUG)
 app = App(
